@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+nav
+{
+    background: linear-gradient(45deg, #7766E3, #A066E3, transparent 100%);
+    margin-right: 850px;
+}
+
 h1
 {
     color:#A066E3;
@@ -22,4 +28,64 @@ p
 body
 {
     background:linear-gradient(to right, #8EB9FC, #AA8DFC);
+}
+
+.walle
+{
+    float:left;
+    width:10%;
+}
+
+.wallep
+{
+    padding-bottom: 60px;
+}
+
+.house
+{
+    float:left;
+    width:10%;
+}
+
+.renovationp
+{
+    padding-bottom: 70px;
+}
+
+#roboth
+{
+    padding-top: 10px;
+}
+
+#househ
+{
+    padding-top: 20px;
+}
+
+.net
+{
+    float:left;
+    width:20%;
+}
+
+.networkp
+{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+#networkh
+{
+    padding-top: 30px;
+}
+
+.bear
+{
+    width:10%;
+    float:left;
+}
+
+#bearh
+{
+    padding-top: 30px;
 }
