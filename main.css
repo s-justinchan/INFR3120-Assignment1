@@ -2,7 +2,7 @@
 
 nav
 {
-    background: linear-gradient(45deg, #7766E3, #A066E3, transparent 100%);
+    background:linear-gradient(to right,#7766E3, #A066E3, transparent 100%);
     margin-right: 850px;
 }
 
@@ -88,4 +88,117 @@ body
 #bearh
 {
     padding-top: 30px;
+}
+
+@media (min-width: 960px)
+{
+    .walle
+    {
+        width:30%;
+    }
+
+    .house
+    {
+        width:33%;
+    }
+
+    .net
+    {
+        width:45%;
+    }
+
+    .networkp
+    {
+        font-size: 12px;
+    }
+
+    .bear
+    {
+        width:27%;
+    }
+
+    .bearp
+    {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px)
+{
+    #roboth
+    {
+        padding-top:5px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .walle
+    {
+        width:100%;
+    }
+
+    #househ
+    {
+        padding-top:10px;
+        font-size:20px;
+        text-align: center;
+    }
+
+    .house
+    {
+        width:100%;
+    }
+
+    #networkh
+    {
+        font-size:20px;
+        text-align: center;
+    }
+    
+    .net
+    {
+        width:100%;
+    }
+
+    .bear
+    {
+        width:100%;
+    }
+
+    #bearh
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .bearp,.wallep,.renovationp,.networkp
+    {
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width:960px)
+{
+    .walle,.house,.net,.bear
+    {
+        width:100%;
+    }
+
+    #roboth,.wallep,.renovationp,#networkh,.networkp,.bearp
+    {
+        text-align: center;
+    }
+
+    #househ
+    {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    #bearh
+    {
+        text-align: center;
+        font-size:23px;
+    }
+    
 }
