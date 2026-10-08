@@ -45,3 +45,22 @@ address
     text-align: center;
     font-size:23px;
 }
+
+#contacth
+{
+    color: #A066E3;
+}
+
+.formlabels
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+    font-weight: bold;
+}
+
+#aboutp
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+    font-weight: bold;
+}

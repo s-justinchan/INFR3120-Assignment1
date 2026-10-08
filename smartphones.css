@@ -73,3 +73,27 @@ body
 {
     text-align: center;
 }
+
+#contacth
+{
+    color: #A066E3;
+}
+
+.formlabels
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+    font-weight: bold;
+}
+
+#abouth
+{
+    color: #A066E3;
+}
+
+#aboutp
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+    font-weight: bold;
+}
